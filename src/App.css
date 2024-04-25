@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  padding: 0 1rem;
+}
+
+.responsive-container {
+  height: 50vh;
+  width: 100%;
+  margin-top: 2rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .responsive-container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-container {
+    padding: 5px;
+  }
+}
